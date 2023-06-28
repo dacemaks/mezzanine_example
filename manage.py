@@ -4,7 +4,7 @@ import sys
 
 if __name__ == "__main__":
 
-    from mezzanine.utils.conf import real_project_name
+    from mezzanine.utils.conf import mezzanine
 
     settings_module = "%s.settings" % real_project_name("mezzanine_example")
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", settings_module)
